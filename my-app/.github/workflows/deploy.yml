@@ -34,3 +34,4 @@ jobs:
         with:
           folder: dist/my-app/browser # Controlla il nome della cartella in 'dist' dopo il build
           branch: gh-pages # Il ramo dove verrà messo il codice compilato
+# Il ramo dove verrà messo il codice compilato
