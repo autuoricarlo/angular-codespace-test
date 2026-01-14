@@ -27,7 +27,7 @@ jobs:
       - name: Build
         # IMPORTANTE: Sostituisci 'NOME-DEL-TUO-REPO' con il nome esatto del tuo repository!
         # Esempio: se il repo è 'mario-rossi/angular-test', scrivi solo 'angular-test'
-        run: npm run build -- --configuration production --base-href /my-app/
+        run: npm run build -- --configuration production --base-href /ANGULAR-CODESPACE-TEST/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

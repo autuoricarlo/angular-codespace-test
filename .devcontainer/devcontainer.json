@@ -1,0 +1,17 @@
+{
+  "name": "Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  
+  // Esegue i comandi dopo la creazione del container
+  "postCreateCommand": "npm install && npm install -g @angular/cli",
+
+  // Opzionale: installa estensioni utili automaticamente
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "pivotal.vscode-concourse"
+      ]
+    }
+  }
+}
